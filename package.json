@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "lint:fix": "eslint . --fix",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
     "lint": "eslint ."
   },
   "devDependencies": {
