@@ -1,5 +1,5 @@
 
-import express from 'express';
+import express from "express";
 const router = express.Router();
 
 
@@ -11,11 +11,11 @@ export function setAnimesStorage(storage) {
   animes = storage;
 }
 
-router.delete('/:id', (req, res) => {
+router.delete("/:id", (req, res) => {
   const { id } = req.params;
   const index = animes.findIndex(a => String(a.id) === String(id));
   if (index === -1) {
-    return res.status(404).json({ message: 'Anime not found' });
+    return res.status(404).json({ message: "Anime not found" });
   }
   animes.splice(index, 1);
   return res.status(204).send();
