@@ -3,6 +3,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "jest --coverage"
+
   },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
