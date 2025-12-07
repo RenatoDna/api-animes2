@@ -1,22 +1,26 @@
 # API Animes
 
-## Descrição
-API simples para listar e adicionar animes.
+[![Docker Hub](https://badgen.net/badge/dockerhub/api-animes/blue?icon=docker)](https://hub.docker.com/repository/docker/renatodna/api_animes_2025_dna)
 
-## Rota GET
-- `GET /api/animes` → Lista todos os animes
+## 📌 Descrição
+API simples para listar, adicionar e remover animes.  
+Projeto criado com foco em aprendizado, utilizando **Node.js**, **Express**, **Jest** e **GitHub Flow**.
 
-## Rota POST
-- `POST /api/animes` → Adiciona um novo anime  
-  Exemplo de corpo JSON:
-  ```json
-  {
-    "nome": "Bleach",
-    "genero": "Ação"
-  }
-    
-## Rota DELETE
-- `DELETE /api/animes` → Deleta animes adicionados
-# github flow foi escolhido por ser um projeto mais simples com intuito de aprendizado.
- 
+---
 
+## 🚀 Endpoints
+
+### 📍 **GET /api/animes**
+Retorna a lista de todos os animes cadastrados.
+
+---
+
+### 📍 **POST /api/animes**
+Adiciona um novo anime.
+
+#### Exemplo de corpo JSON:
+```json
+{
+  "nome": "Bleach",
+  "genero": "Ação"
+}
