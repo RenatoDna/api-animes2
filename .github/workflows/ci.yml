@@ -68,4 +68,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.renatodna }}/api_animes_2025_dna:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/api_animes_2025_dna:latest
