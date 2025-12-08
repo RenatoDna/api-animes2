@@ -3,7 +3,8 @@
   "scripts": {
     "lint:fix": "eslint . --fix",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node src/index.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
